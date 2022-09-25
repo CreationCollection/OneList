@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="grey_900">#171717</color>
+    <color name="grey_700">#282828</color>
+    <color name="grey_400">#606060</color>
+    <color name="grey_200">#A6958A</color>
+
+    <color name="accentColor">#F6AE55</color>
+    <color name="accentColor_variant">#F4B78D</color>
+    <color name="onAccentColor">#59370E</color>
+    
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFF4E6</color>
 </resources>
