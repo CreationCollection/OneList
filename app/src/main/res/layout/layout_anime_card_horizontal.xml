@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+    <ImageView
+        android:id="@+id/anime_image"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_round_rect_small"
+        android:contentDescription="IMAGE" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginStart="20dp">
+        <TextView
+            android:id="@+id/anime_name"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Naruto Shippuden"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:id="@+id/anime_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TV"
+                android:textColor="?colorSecondary"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="@drawable/ic_circle"
+                android:layout_marginHorizontal="10dp"/>
+            <TextView
+                android:id="@+id/anime_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 Episodes"
+                android:textColor="?android:textColorHint"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/more_option"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_menu"
+        android:background="@drawable/ic_round_rect_small"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:contentDescription="OPTIONS" />
+</LinearLayout>

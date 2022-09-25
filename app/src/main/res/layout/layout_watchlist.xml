@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="10dp"
+    android:background="@drawable/ic_round_stroked_rect_small"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <TextView
+        android:id="@+id/watchlist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="Naruto shippuden the movie: the will of fire"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingVertical="2dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/watchlist_publicity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publicity"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="?colorSecondary"/>
+        <View
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:background="@drawable/ic_circle"
+            android:layout_marginHorizontal="10dp"/>
+        <TextView
+            android:id="@+id/holding_anime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 Anime"
+            android:textSize="10sp"
+            android:textColor="?android:textColorHint"/>
+        <View
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:background="@drawable/ic_circle"
+            android:layout_marginHorizontal="10dp"/>
+        <TextView
+            android:id="@+id/following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120 Following"
+            android:textSize="10sp"
+            android:textColor="?android:textColorHint"/>
+    </LinearLayout>
+</LinearLayout>
